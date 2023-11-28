@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+nav img {
+    padding-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    padding-top: 55px;
+    font-weight: 900;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftSection {
+    position: relative;
+    left: -20px;
+    top: 110px;
+}
+
+.leftSection h1 {
+    font-weight: 900;
+    font-size: 55px;
+}
+
+.leftSection p {
+    padding-top: 20px;
+}
+
+.bottomAngle {
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+
+.stethoscope {
+    position: absolute;
+    width: 90%;
+    top: -14%;
+    left: 180px;
+    z-index: -1;
+}
+
+.mouse {
+    position: absolute;
+    left: 100%;
+    top: 105%;
+}
+
+button {
+    background-color: rgb(3, 116, 3);
+    height: 35px;
+    width: 180px;
+    color: white;
+    border-radius: 20px;
+    font-weight: 800;
+    border-color: rgb(3, 116, 3);
+    margin-top: 15px;
+    border-style: solid;
+}
+
+.greenBox {
+    position: relative;
+    left: 245px;
+    top: 110px;
+    height: 310px;
+    width: 310px;
+}
+
+.yellowBox {
+    position: absolute;
+    left: 76%;
+    top: 260px;
+    height: 310px;
+    width: 310px;
+}
+
+.doctor {
+    position: absolute;
+    right: 5px;
+    bottom: 30px;
+    height: 520px;
+    width: 370px;
+}
